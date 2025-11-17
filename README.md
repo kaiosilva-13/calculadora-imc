@@ -1,6 +1,6 @@
 # calculadora-imc
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicação VueJs de uma calculadora de IMC (Índice de massa corporal) usando conceitos de variáveis reativas, variáveis computadas exibições condicionais e integração com formulários.
 
 ## Recommended IDE Setup
 
