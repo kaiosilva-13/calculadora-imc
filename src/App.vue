@@ -8,7 +8,7 @@ const IMC = computed(()=>{
 </script>
 
 <template>
-  <main>
+  <div class="container">
     <div><label for="peso">Peso: </label></div>
     <div><input v-model="peso" type="number" min="1" id="peso" step="0.01"></input></div>
     <div><label for="altura">Altura: </label></div>
@@ -22,7 +22,7 @@ const IMC = computed(()=>{
         <h3>IMC: {{ IMC.toFixed(2) }}</h3>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped>
